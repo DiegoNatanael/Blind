@@ -51,7 +51,7 @@ Todos los puntos deben estar en verde (✓) excepto Android Studio (no es necesa
     flutter pub get
 
 # 3. Ejecutar el Proyecto
-
+  flutter devices
   flutter run -d (el id de tu dispositivo)
 
 ### 🔄 Colaboración en el Proyecto
