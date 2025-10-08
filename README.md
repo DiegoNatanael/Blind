@@ -51,6 +51,11 @@ Todos los puntos deben estar en verde (✓) excepto Android Studio (no es necesa
     flutter pub get
 
 # 3. Ejecutar el Proyecto
+  importante tener la depuración USB activada
+
+  (opcciones de desarrollador) esto para que
+  aparezca el dispositivo 
+  
   flutter devices
   
   flutter run -d (el id de tu dispositivo)
