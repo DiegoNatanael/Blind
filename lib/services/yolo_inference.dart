@@ -11,7 +11,7 @@ import '../utils/distance_estimator.dart' as utils; // 👈 Add this import
 class YoloInference {
   Interpreter? interpreter;
   static const int INPUT_SIZE = 640;
-  static const double CONFIDENCE_THRESHOLD = 0.25;
+  static const double CONFIDENCE_THRESHOLD = 0.6;
   static const double IOU_THRESHOLD = 0.45;
 
   Future<void> loadModel() async {
