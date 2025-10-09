@@ -17,7 +17,7 @@ class YoloInference {
   Future<void> loadModel() async {
     var interpreterOptions = InterpreterOptions();
     interpreter = await Interpreter.fromAsset(
-      'assets/models/yolo11n_float32.tflite',
+      'assets/models/yolo11m_float32.tflite',
       options: interpreterOptions,
     );
     interpreter!.allocateTensors();
